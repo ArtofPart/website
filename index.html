@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curious Cat</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="d.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="""" alt="Curious Cat ">
+      <p>"Embody Change. Rewrite Reality."</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#community">Community</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Let’s create meaningful change, together.</h1>
+      <p>Curious Cat is here to help you embrace transformation with a spirit of empathy and collaboration.</p>
+      <a href="#services" class="btn-primary">Get Started</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>Curious Cat is more than just a brand; it’s a movement. We empower individuals and organizations to drive social change by cultivating community-driven solutions and personal transformations.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-card">
+      <h3>Mindful Movements</h3>
+      <p>Tap into your inner strength with mindful exercises that center the body and calm the mind.</p>
+    </div>
+    <div class="service-card">
+      <h3>Community Coaching</h3>
+      <p>Collaborate with us to foster a sense of community and well-being in your workplace or group.</p>
+    </div>
+    <a href="#contact" class="btn-primary">Contact Us</a>
+  </section>
+
+  <!-- Community Section -->
+  <section id="community" class="community">
+    <h2>Join Our Community</h2>
+    <p>Be part of a space where change happens together – with support, collaboration, and shared vision.</p>
+    <button onclick="alert('Thanks for joining the community!')">Join Now</button>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog" class="blog">
+    <h2>Our Blog</h2>
+    <p>Check out our latest articles on mindfulness, personal transformation, and social change.</p>
+    <div class="blog-post">
+      <h3>Transform Your Mindset</h3>
+      <p>Discover how small daily habits can create big shifts in your life.</p>
+    </div>
+    <div class="blog-post">
+      <h3>Community Building 101</h3>
+      <p>Learn how to cultivate a supportive environment for collective growth.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form action="#">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit" class="btn-primary">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Curious Cat. All rights reserved.</p>
+  </footer>
+
+  <script src="f.js"></script>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Curious Cat</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Homepage -->
+  <header class="hero">
+    <video autoplay muted loop id="heroVideo">
+      <source src="your-video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="hero-text">
+      <h1>"Transform Yourself. Transform the World."</h1>
+    </div>
+  </header>
+
+  <section class="key-offerings">
+    <h2>Our Key Offerings</h2>
+    <div class="offerings-grid">
+      <div class="offerings-card">
+        <h3>Workshops</h3>
+        <p>e.g., "Unmasking Bias: A T.O. Journey"</p>
+      </div>
+      <div class="offerings-card">
+        <h3>Events</h3>
+        <p>e.g., "Climate Anxiety Dialogue Circles"</p>
+      </div>
+      <div class="offerings-card">
+        <h3>Resources</h3>
+        <p>e.g., "Guide to Becoming a Spect-Actor"</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="social-proof">
+    <h2>What Our Participants Say</h2>
+    <div class="quote-carousel">
+      <p>"This workshop rewired how I see power."</p>
+      <p>"The most transformative experience I’ve ever had."</p>
+    </div>
+  </section>
+
+  <!-- Interactive Section -->
+  <section class="interactive-elements">
+    <h2>Discover Your Role</h2>
+    <button class="cta-btn" onclick="startQuiz()">Take the "What's Your Role?" Quiz</button>
+
+    <h2>Submit Your Conflict: Virtual Forum Theatre</h2>
+    <form id="forum-form">
+      <label for="user-conflict">Describe your real-life conflict:</label>
+      <textarea id="user-conflict" placeholder="Tell us about your conflict..." required></textarea>
+      <button type="submit" class="cta-btn">Submit Conflict</button>
+    </form>
+
+    <h2>Join Our Live Spect-Actor Jam</h2>
+    <button class="cta-btn">Watch Live</button>
+  </section>
+
+  <!-- About Page -->
+  <section id="about">
+    <h2>What We Do</h2>
+    <div class="about-content">
+      <p>We use Theater of the Oppressed (T.O.) principles to create dynamic, embodied, and empathetic experiences.</p>
+      <img src="embodied-theater.gif" alt="Embodied Theater" />
+      <p>Explore somatic practices like movement and breathwork to shift perspective and engage with social change.</p>
+    </div>
+  </section>
+
+  <!-- Join Section -->
+  <section id="join">
+    <h2>Join Us</h2>
+    <div class="join-options">
+      <div class="join-option">
+        <h3>Drop-In Workshops</h3>
+        <p>Pay-what-you-can options for everyone.</p>
+      </div>
+      <div class="join-option">
+        <h3>6-Week Intensives</h3>
+        <p>e.g., "Body as Resistance"</p>
+      </div>
+      <div class="join-option">
+        <h3>Community Collaborations</h3>
+        <p>Partner with NGOs and schools for meaningful engagement.</p>
+      </div>
+    </div>
+    <button class="cta-btn">Become a Member</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Curious Cat. All Rights Reserved.</p>
+  </footer>
+
+  <script src="f.js"></script>
+</body>
+
+</html>
